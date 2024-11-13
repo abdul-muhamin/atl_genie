@@ -1,0 +1,43 @@
+{
+  "pages": {
+    "/ask-anything/[chatId]/page": [
+      "static/chunks/[root of the server]__bee275._.css",
+      "static/chunks/src_9a6672._.js",
+      "static/chunks/node_modules_next_e3e54f._.js",
+      "static/chunks/node_modules_@tanstack_query-core_build_modern_035b3c._.js",
+      "static/chunks/node_modules_tailwind-merge_dist_bundle-mjs_mjs_b854ac._.js",
+      "static/chunks/node_modules_@radix-ui_react-icons_dist_react-icons_esm_ecd85e.js",
+      "static/chunks/node_modules_dexie_0b45c6._.js",
+      "static/chunks/node_modules_9fb299._.js",
+      "static/chunks/src_app_layout_tsx_7e7183._.js",
+      "static/chunks/src_app_not-found_tsx_f94fce._.js",
+      "static/chunks/src_app_not-found_tsx_a38cbb._.js",
+      "static/chunks/a480a_tailwind-merge_dist_lib_4e292b._.js",
+      "static/chunks/node_modules_framer-motion_dist_es_c361a0._.js",
+      "static/chunks/node_modules_c5d471._.js",
+      "static/chunks/src_e2aad6._.js",
+      "static/chunks/src_app_ask-anything_layout_tsx_94620a._.js",
+      "static/chunks/src_87449f._.js",
+      "static/chunks/node_modules_framer-motion_dist_es_10cb86._.js",
+      "static/chunks/node_modules_c01eea._.js",
+      "static/chunks/node_modules_refractor_lang_18ace1._.js",
+      "static/chunks/node_modules_refractor_d203a8._.js",
+      "static/chunks/node_modules_micromark-core-commonmark_dev_lib_36a4b4._.js",
+      "static/chunks/node_modules_katex_dist_katex_mjs_196a35._.js",
+      "static/chunks/node_modules_micromark_dev_lib_d5971a._.js",
+      "static/chunks/node_modules_e106c8._.js",
+      "static/chunks/node_modules_katex_dist_katex_min_f5e99d.css",
+      "static/chunks/src_app_ask-anything_[chatId]_page_tsx_8c8578._.js",
+      "static/chunks/node_modules_next_dist_compiled_react_a1d82d._.js",
+      "static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js",
+      "static/chunks/node_modules_next_dist_compiled_react-dom_87a050._.js",
+      "static/chunks/node_modules_next_dist_compiled_e13b54._.js",
+      "static/chunks/node_modules_next_dist_client_8bb71d._.js",
+      "static/chunks/node_modules_next_dist_38ecb8._.js",
+      "static/chunks/ed0b0_@swc_helpers_cjs_d9e50e._.js",
+      "static/chunks/[turbopack]_dev_client_hmr-client_ts_e1d56b._.js",
+      "static/chunks/node_modules_next_dist_esm_build_templates_app-page_51fc8d.js",
+      "static/chunks/node_modules_next_dist_esm_build_templates_app-page_80d8a6.js"
+    ]
+  }
+}
