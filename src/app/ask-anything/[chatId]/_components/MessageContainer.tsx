@@ -63,7 +63,7 @@ export const MessageContainer = ({
         {message.role === 'assistant' && (
           <div className='flex h-full flex-col'>
             <div className='flex-grow'></div>
-            <Avatar className='mb-3 flex items-center justify-center rounded-full border p-0.5 dark:border-[#D1D1D1]'>
+            <Avatar className='mb-3 flex items-center justify-center rounded border p-0.5 dark:border-[#D1D1D1]'>
               <AvatarImage
                 src={'/PURPLE_A.png'}
                 alt={message.role}
@@ -99,7 +99,7 @@ export const MessageContainer = ({
         </span>
         {message.role === 'user' && (
           <div className='relative flex h-full flex-col'>
-            <Avatar className='mt-[12px] flex items-center justify-center border'>
+            <Avatar className='mt-[12px] flex items-center justify-center rounded border'>
               <AvatarImage
                 src={`/user.png`}
                 alt={message.role}

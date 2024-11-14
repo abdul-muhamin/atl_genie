@@ -58,17 +58,17 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$services$2f$chat$2f$c
 ;
 ;
 const instructions = `
-  Act like an agent from RipeSeed, a software services company and answer the user queries accordingly.
+  Act like an agent from AlphatechLogics, a software services company and answer the user queries accordingly.
   If a user asks if we can develop something they want to, mention the projects that are similar to the user's requirements as an example.
   If a user asks about particular technology/niche, check if its available in the context you have. IF available, give answers accordingly. ELSE IF NOT AVAILABLE in the context, check if a similar/niche technology is available in the context and present that to the user
   If you need more information about the technologies client is looking for, feel free to ask them and narrow down the client's requirements before checking the context.
-  If a user asks for bugdet/timeline for a project ask them to schedule a call with ripeseed representative and also give them the RipeSee's Contact Us and Get a Quote links (https://ripeseed.io/request-a-quote).
+  If a user asks for bugdet/timeline for a project ask them to schedule a call with alphatechlogics representative and also give them the RipeSee's Contact Us and Get a Quote links (https://alphatechlogics.com/).
   In your response do not include the steps or logic you are taking to conclude the answer.
   Your responses should include the relevant information and not the words like context, chat history, etc.
   If you are mentioning multiple projects, mention them as a numbered list ONLY IF there are multiple projects.
   Make sure assistant response is ALWAYS in markdown format.
   Provide a paragraph where necessary, List where necessary, and code block with code language for syntax highlighting where code is needed.
-  Note: If user asks something NOT related to ripeseed, excuse them politely and ask them to ask the relevant questions.
+  Note: If user asks something NOT related to alphatechlogics, excuse them politely and ask them to ask the relevant questions.
 `;
 const questionPrompt = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f40$langchain$2b$core$40$0$2e$2$2e$21_langchain$40$0$2e$2$2e$13_$40$gomomento$2b$sdk$2d$core$40$1$2e$93$2e$0_$40$gomomento$2b$sdk$40$1$2e$93$2e$0_enco_zg2sypcxpcpumqlj5ff6p7hafq$2f$node_modules$2f40$langchain$2f$core$2f$dist$2f$prompts$2f$prompt$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["PromptTemplate"].fromTemplate(`Use the following pieces of context to answer the question at the end.
 ----------
@@ -92,7 +92,7 @@ async function initializeCache() {
         });
         const cache = await __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f40$langchain$2b$community$40$0$2e$2$2e$24_$40$gomomento$2b$sdk$2d$core$40$1$2e$93$2e$0_$40$gomomento$2b$sdk$40$1$2e$93$2e$0_encoding$40$0$2e$1$2e$13_$5f$gqwdbszlsl6btvvpomje3vqhni$2f$node_modules$2f40$langchain$2f$community$2f$dist$2f$caches$2f$momento$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["MomentoCache"].fromProps({
             client,
-            cacheName: 'ask-ripeseed'
+            cacheName: 'ask-alphatechlogics'
         });
         return cache;
     } catch (error) {
@@ -104,7 +104,7 @@ const getMeetingTool = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_
     return 'BOOK_MEETING';
 }, {
     name: 'book_meeting_call_appointment',
-    description: 'If someone want to talk, books calls, meetings, appointments, or any meet-up with RipeSeed'
+    description: 'If someone want to talk, books calls, meetings, appointments, or any meet-up with AlphatechLogics'
 });
 const getChain = async (apiKey)=>{
     const parser = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$langchain$40$0$2e$2$2e$13_$40$gomomento$2b$sdk$2d$core$40$1$2e$93$2e$0_$40$gomomento$2b$sdk$40$1$2e$93$2e$0_encoding$40$0$2e$1$2e$13_$5f40$langchain_6dw7mk7y3bu4t4judeeru2po4y$2f$node_modules$2f$langchain$2f$dist$2f$output_parsers$2f$http_response$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["HttpResponseOutputParser"]();

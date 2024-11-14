@@ -2,7 +2,6 @@
   "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/ask-anything/page": "app/ask-anything/page.js",
-  "/api/chat/ask-ripeseed/route": "app/api/chat/ask-ripeseed/route.js",
   "/ask-anything/[chatId]/page": "app/ask-anything/[chatId]/page.js",
   "/api/chat/send-message/route": "app/api/chat/send-message/route.js"
 }

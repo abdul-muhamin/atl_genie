@@ -63,10 +63,10 @@ export default function Page() {
           >
             <div>
               <div className='group cursor-pointer rounded-lg bg-[#DBDBDB] p-[16px] pl-[24px] transition duration-300 hover:bg-crayola dark:bg-[#34343C] dark:hover:bg-crayola'>
-                <div className='flex w-full items-center gap-2'>
+                <div className='items-left flex w-full gap-1'>
                   <MessageSquare className='h-4 w-4 text-crayola group-hover:text-white' />
-                  <span className='text-center font-medium text-black group-hover:text-white dark:text-white'>
-                    Ask RipeSeed
+                  <span className='text-left font-medium text-black group-hover:text-white dark:text-white'>
+                    Ask AlphaTech Logics
                   </span>
                 </div>
               </div>
