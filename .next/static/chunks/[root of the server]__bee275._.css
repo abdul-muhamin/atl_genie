@@ -1814,6 +1814,10 @@ body {
   white-space: nowrap;
 }
 
+.rounded {
+  border-radius: .25rem;
+}
+
 .rounded-3xl {
   border-radius: 1.5rem;
 }
@@ -1840,10 +1844,6 @@ body {
 
 .rounded-xl {
   border-radius: .75rem;
-}
-
-.rounded {
-  border-radius: .25rem;
 }
 
 .rounded-tl-sm {

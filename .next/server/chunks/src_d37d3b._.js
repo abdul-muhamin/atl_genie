@@ -135,7 +135,7 @@ const serializeChatHistory = (chatHistory)=>{
         }
     }).join('\n');
 };
-function converse(message, context, idArray, openAIApiKey, isAskRipeseedChat = false) {
+function converse(message, context, idArray, openAIApiKey, isAskATLChat = false) {
     return new ReadableStream({
         async start (controller) {
             const question = message;
@@ -165,7 +165,7 @@ function converse(message, context, idArray, openAIApiKey, isAskRipeseedChat = f
                 chatHistory,
                 context: serializedDocs,
                 question,
-                instructions: isAskRipeseedChat ? instructions : ''
+                instructions: isAskATLChat ? instructions : ''
             };
             const stream = (await getChain(openAIApiKey)).streamEvents(questionGeneratorInput, {
                 version: 'v1'

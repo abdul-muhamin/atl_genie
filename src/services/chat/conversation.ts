@@ -116,7 +116,7 @@ export function converse(
   context: Context[],
   idArray: string[],
   openAIApiKey: string,
-  isAskRipeseedChat: boolean = false,
+  isAskATLChat: boolean = false,
 ) {
   return new ReadableStream({
     async start(controller) {
@@ -152,7 +152,7 @@ export function converse(
         chatHistory,
         context: serializedDocs,
         question,
-        instructions: isAskRipeseedChat ? instructions : '',
+        instructions: isAskATLChat ? instructions : '',
       }
 
       const stream = (await getChain(openAIApiKey)).streamEvents(

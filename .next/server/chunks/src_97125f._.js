@@ -135,7 +135,7 @@ const serializeChatHistory = (chatHistory)=>{
         }
     }).join('\n');
 };
-function converse(message, context, idArray, openAIApiKey, isAskRipeseedChat = false) {
+function converse(message, context, idArray, openAIApiKey, isAskATLChat = false) {
     return new ReadableStream({
         async start (controller) {
             const question = message;
@@ -165,7 +165,7 @@ function converse(message, context, idArray, openAIApiKey, isAskRipeseedChat = f
                 chatHistory,
                 context: serializedDocs,
                 question,
-                instructions: isAskRipeseedChat ? instructions : ''
+                instructions: isAskATLChat ? instructions : ''
             };
             const stream = (await getChain(openAIApiKey)).streamEvents(questionGeneratorInput, {
                 version: 'v1'
@@ -199,8 +199,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$services$2f$chat$2f$c
 ;
 async function POST(request) {
     const { messages, uId } = await request.json();
-    const indexId = process.env.RIPESEED_DOC_INDEX_ID;
-    const apiKey = process.env.RIPESEED_OPENAI_API_KEY;
+    const indexId = process.env.ALT_DOC_INDEX_ID;
+    const apiKey = process.env.ALT_OPENAI_API_KEY;
     const streamedResponse = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$services$2f$chat$2f$conversation$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["converse"])(messages[messages.length - 1].content, messages, [
         indexId
     ], apiKey, true);
@@ -227,7 +227,7 @@ async function POST(request) {
 // };
 // // upsert based in uId
 // try {
-//   AskRipeseedChat.updateOne(
+//   AskATLChat.updateOne(
 //     {
 //       uId,
 //     },

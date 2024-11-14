@@ -8,7 +8,7 @@ class ChatDatabase extends Dexie {
   public askRSMessages: Dexie.Table<AskRSMessage, number>
 
   constructor() {
-    super('ripeseed')
+    super('alphatechlogics')
     this.version(1).stores({
       chats: '++id, name, createdAt, updatedAt, indexId',
       messages: '++id, content, chatId, createdAt, updatedAt',

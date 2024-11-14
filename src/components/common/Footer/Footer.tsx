@@ -9,7 +9,7 @@ export const Footer = () => {
       <div className='flex h-full flex-row gap-1'>
         <p className='flex items-center'>built by</p>
         <Link
-          href={'https://ripeseed.io'}
+          href={'https://alphatechlogics.com/'}
           target='_blank'
           className='flex items-center'
         >

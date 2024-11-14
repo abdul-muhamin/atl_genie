@@ -1,8 +1,8 @@
 import mongoose from 'mongoose'
 
-import { AskRipeseedChat } from './AskRipeseedChat.model'
+import { AskATLChat } from './AskATLChat.model'
 
-export { AskRipeseedChat }
+export { AskATLChat }
 
 const connectDB = async () => {
   try {

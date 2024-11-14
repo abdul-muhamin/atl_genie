@@ -40,7 +40,7 @@ export default function Sidebar() {
 
   return (
     <div className='h-[calc(100svh-96px)]'>
-      {/* Ask RipeSeed Button */}
+      {/* Ask ATL Button */}
       <div className='pb-8 pt-7'>
         <Link href='/ask-anything'>
           <div className='group cursor-pointer rounded-lg bg-[#DBDBDB] p-[16px] pl-[24px] transition duration-300 hover:bg-crayola dark:bg-[#34343C] dark:hover:bg-crayola'>

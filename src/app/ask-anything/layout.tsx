@@ -3,9 +3,9 @@ import { Metadata } from 'next'
 import { ChatHeader } from './[chatId]/_components/ChatHeader'
 
 export const metadata: Metadata = {
-  title: 'Chatbot showcase | Alpatech Logics',
+  title: 'ATL Genie| Alphatech Logics',
   description:
-    'Ask Alpatech Logics - A product of AlpatechLogics - Transforming ideas into innovative software solutions',
+    'Ask Alphatech Logics - A product of AlphatechLogics - Transforming ideas into innovative software solutions',
   keywords: [
     'ChatGPT',
     'Artificial Intelignece',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   ],
 
   openGraph: {
-    title: 'Chatbot showcase | Alpatech Logics',
+    title: 'ATL Genie| Alphatech Logics',
     description: 'Transforming ideas into innovative software solutions',
     url: 'https://alphatechlogics.com/',
     siteName: 'Alphatech Logics',

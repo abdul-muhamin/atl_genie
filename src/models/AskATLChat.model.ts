@@ -21,7 +21,7 @@ const Message = new Schema(
   },
 )
 
-const askRipeseedChatShema = new Schema(
+const askATLChatShema = new Schema(
   {
     uId: {
       type: String,
@@ -41,9 +41,8 @@ const askRipeseedChatShema = new Schema(
   },
 )
 
-export const AskRipeseedChat =
-  mongoose.models.AskRipeseedChat ||
-  mongoose.model('AskRipeseedChat', askRipeseedChatShema)
+export const AskATLChat =
+  mongoose.models.AskATLChat || mongoose.model('AskATLChat', askATLChatShema)
 
 export type Message = {
   content: string
@@ -51,7 +50,7 @@ export type Message = {
   createdAt?: string
   updatedAt?: string
 }
-export type AskRipeseedChat = {
+export type AskATLChat = {
   uId: string
   messages: Message[]
   indexId: string
