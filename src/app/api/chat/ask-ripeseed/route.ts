@@ -1,13 +1,11 @@
 import { Message } from '@/app/_lib/db'
-import { AskATLChat } from '@/models'
-import type { Message as MessageModel } from '@/models/AskATLChat.model'
 import { converse } from '@/services/chat/conversation'
 
-// this is chat with alphatech logic's own document. so users can ask questions
+// this is chat with alphatechlogics's own document. so users can ask questions
 export async function POST(request: Request) {
   const { messages, uId } = await request.json()
-  const indexId = process.env.ALT_DOC_INDEX_ID!
-  const apiKey = process.env.ALT_OPENAI_API_KEY!
+  const indexId = process.env.ATL_DOC_INDEX_ID!
+  const apiKey = process.env.RIPESEED_OPENAI_API_KEY!
 
   const streamedResponse = converse(
     messages[messages.length - 1].content,

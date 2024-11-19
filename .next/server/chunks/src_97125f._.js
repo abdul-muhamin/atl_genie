@@ -104,7 +104,7 @@ const getMeetingTool = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_
     return 'BOOK_MEETING';
 }, {
     name: 'book_meeting_call_appointment',
-    description: 'If someone want to talk, books calls, meetings, appointments, or any meet-up with AlphatechLogics'
+    description: 'If someone want to talk, books calls, meetings, appointments, or any meet-up with Alphatech logics'
 });
 const getChain = async (apiKey)=>{
     const parser = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$langchain$40$0$2e$2$2e$13_$40$gomomento$2b$sdk$2d$core$40$1$2e$93$2e$0_$40$gomomento$2b$sdk$40$1$2e$93$2e$0_encoding$40$0$2e$1$2e$13_$5f40$langchain_6dw7mk7y3bu4t4judeeru2po4y$2f$node_modules$2f$langchain$2f$dist$2f$output_parsers$2f$http_response$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["HttpResponseOutputParser"]();
@@ -199,8 +199,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$services$2f$chat$2f$c
 ;
 async function POST(request) {
     const { messages, uId } = await request.json();
-    const indexId = process.env.ALT_DOC_INDEX_ID;
-    const apiKey = process.env.ALT_OPENAI_API_KEY;
+    const indexId = process.env.ATL_DOC_INDEX_ID;
+    const apiKey = process.env.RIPESEED_OPENAI_API_KEY;
     const streamedResponse = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$services$2f$chat$2f$conversation$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["converse"])(messages[messages.length - 1].content, messages, [
         indexId
     ], apiKey, true);

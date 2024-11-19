@@ -1,22 +1,26 @@
 {
   "node": {
-    "a09e0578f12d2508bc55e0980a2edd1dc7de224e": {
-      "workers": {
-        "app/ask-anything/page": "[project]/.next-internal/server/app/ask-anything/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/ask-anything/[chatId]/actions/addDocument.ts [app-rsc] (ecmascript, action, ecmascript)\" } [app-rsc] (ecmascript)"
-      },
-      "layer": {
-        "app/ask-anything/page": "actionBrowser"
-      }
-    },
     "26325f399db21997e64fb253464df0c1b18b474a": {
       "workers": {
-        "app/ask-anything/page": "[project]/.next-internal/server/app/ask-anything/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/ask-anything/[chatId]/actions/addDocument.ts [app-rsc] (ecmascript, action, ecmascript)\" } [app-rsc] (ecmascript)"
+        "app/ask-anything/page": "[project]/.next-internal/server/app/ask-anything/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/ask-anything/[chatId]/actions/addDocument.ts [app-rsc] (ecmascript, action, ecmascript)\" } [app-rsc] (ecmascript)",
+        "app/ask-anything/[chatId]/page": "[project]/.next-internal/server/app/ask-anything/[chatId]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/ask-anything/[chatId]/actions/addDocument.ts [app-rsc] (ecmascript, action, ecmascript)\" } [app-rsc] (ecmascript)"
       },
       "layer": {
-        "app/ask-anything/page": "actionBrowser"
+        "app/ask-anything/page": "actionBrowser",
+        "app/ask-anything/[chatId]/page": "actionBrowser"
+      }
+    },
+    "a09e0578f12d2508bc55e0980a2edd1dc7de224e": {
+      "workers": {
+        "app/ask-anything/page": "[project]/.next-internal/server/app/ask-anything/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/ask-anything/[chatId]/actions/addDocument.ts [app-rsc] (ecmascript, action, ecmascript)\" } [app-rsc] (ecmascript)",
+        "app/ask-anything/[chatId]/page": "[project]/.next-internal/server/app/ask-anything/[chatId]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/ask-anything/[chatId]/actions/addDocument.ts [app-rsc] (ecmascript, action, ecmascript)\" } [app-rsc] (ecmascript)"
+      },
+      "layer": {
+        "app/ask-anything/page": "actionBrowser",
+        "app/ask-anything/[chatId]/page": "actionBrowser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "uHuqV3uG3IpByErG/C13k9N4g30BWbnflrtDAxlTnCw="
+  "encryptionKey": "nq81M8Q87r5ttwYjxK6t/iAECkQT09ZTKeoBGbHur7Q="
 }

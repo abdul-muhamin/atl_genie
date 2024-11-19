@@ -82,7 +82,7 @@ export default function GeneralSideBar() {
   }
 
   return (
-    <div className='h-screen bg-white text-white dark:bg-black'>
+    <div className='h-screen bg-[#fff] text-white dark:bg-black'>
       <div className='h-[calc(100svh-96px)]'>
         <div className='pb-8 pt-7'>
           <div
@@ -129,7 +129,7 @@ export default function GeneralSideBar() {
                           className='flex cursor-pointer items-center gap-2 focus:bg-[#E338612E] focus:text-[#E33861]'
                           onClick={(event) => onDelete(event, chat)}
                         >
-                          <Trash2 className='h-3 w-3 text-[#a100ff]' />
+                          <Trash2 className='h-3 w-3 text-[red]' />
                           Delete
                         </DropdownMenuItem>
                       </DropdownMenuContent>

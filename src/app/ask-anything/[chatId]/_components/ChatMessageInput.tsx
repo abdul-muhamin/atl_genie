@@ -33,7 +33,7 @@ export function ChatMessageInput() {
     }
     return path
   }, [pathname])
-  // pathname will always be "-1" or "0" or "{id}" indicating ask-ATL or ask-anything or chatId
+  // pathname will always be "-1" or "0" or "{id}" indicating ask-alphatechlogics or ask-anything or chatId
 
   useEffect(() => {
     if (inputRef.current) {

@@ -74,7 +74,7 @@ const getMeetingTool = tool(
   {
     name: 'book_meeting_call_appointment',
     description:
-      'If someone want to talk, books calls, meetings, appointments, or any meet-up with AlphatechLogics',
+      'If someone want to talk, books calls, meetings, appointments, or any meet-up with Alphatech logics',
   },
 )
 

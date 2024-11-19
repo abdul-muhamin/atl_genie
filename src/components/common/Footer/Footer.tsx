@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <div className='flex h-6 items-center justify-between truncate bg-[#3F3D56] p-2 text-[0.6rem] text-white md:px-8'>
       <p></p>
-      <p>Ⓒ AlphaTech Logics {new Date().getFullYear()}</p>
+      <p>Ⓒ Alphatech Logics {new Date().getFullYear()}</p>
       <div className='flex h-full flex-row gap-1'>
         <p className='flex items-center'>built by</p>
         <Link
@@ -16,8 +16,8 @@ export const Footer = () => {
           <Image
             src={'/PURPLE_A.png'}
             alt='alphatechlogics'
-            width={100}
-            height={100}
+            width={70}
+            height={70}
           />
         </Link>
       </div>

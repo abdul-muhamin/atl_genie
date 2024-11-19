@@ -1,32 +1,32 @@
-<h1 align="center">Ask Alphatech Logics - An AI Assistant <i>for agencies</i></h1>
+<h1 align="center">Ask Genie - An AI Assistant <i>for agencies</i></h1>
 
 <div align="center">
-<a href="https://ask.Alphatech Logics.io/">
-    <img src="https://img.shields.io/badge/Demo-Ask_Alphatech Logics-green" height="20" />
+<a href="https://alphatechlogics.com/">
+    <img src="https://img.shields.io/badge/Demo-Ask_alphatechlogics-green" height="20" />
 </a>
-<a href="https://github.com/Alphatech Logics/ask-Alphatech Logics/blob/main/LICENSE">
+<a href="https://github.com/alphatechlogics/ask-alphatechlogics/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" height="20"/>
 </a>
-<a href="https://www.linkedin.com/company/Alphatech Logics/">
+<a href="https://www.linkedin.com/company/alphatechlogics/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="20"/>
 </a>
 <a href="https://www.langchain.com/">
     <img src="https://img.shields.io/badge/langchain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" height="20" />
 </a>
-<a href="https://github.com/Alphatech Logics/ask-Alphatech Logics">
-    <img src="https://img.shields.io/github/stars/Alphatech Logics/ask-Alphatech Logics" height="20" />
+<a href="https://github.com/alphatechlogics/ask-alphatechlogics">
+    <img src="https://img.shields.io/github/stars/alphatechlogics/ask-alphatechlogics" height="20" />
 </a>
 </div>
 
-Ask Alphatech Logics was originally developed to help potential customers see if our team (at [Alphatech Logics](https://www.linkedin.com/company/Alphatech Logics)) has the required capabilities to help them with their projects. Any customer can ask about what they are looking for, and the AI assistant will respond back with relevant portfolios <i>(if any)</i> to showcase our capabilities to deliver that project.
+Ask alphatechlogics was originally developed to help potential customers see if our team (at [alphatechlogics](https://www.linkedin.com/company/alphatechlogics)) has the required capabilities to help them with their projects. Any customer can ask about what they are looking for, and the AI assistant will respond back with relevant portfolios <i>(if any)</i> to showcase our capabilities to deliver that project.
 
-![hero](https://github.com/Alphatech Logics/ask-Alphatech Logics/blob/main/public/ask-rs-landing.png)
+![hero](https://github.com/alphatechlogics/ask-alphatechlogics/blob/main/public/ask-rs-landing.png)
 
 ## Overview
 
-Ask Alphatech Logics consists of two main sections:
+Ask alphatechlogics consists of two main sections:
 
-- **Ask Alphatech Logics**: Ask any questions related to Alphatech Logics, drawing from our knowledge base for accurate and specific answers.
+- **Ask alphatechlogics**: Ask any questions related to alphatechlogics, drawing from our knowledge base for accurate and specific answers.
 - **Ask Anything**: Upload your OpenAI API key (which will be stored locally on browser) to ask general questions. This section also allows you to upload and attach your own documents, enabling the chatbot to answer based on the content of the provided documents.
 
 ## Features
@@ -39,11 +39,11 @@ Ask Alphatech Logics consists of two main sections:
 
 ## Demo
 
-Try the deployed application on the link [here](https://ask.Alphatech Logics.io). "Ask Alphatech Logics" tab is free to use but make sure to add your openai key (stored locally in the browser) to explore "Ask Anything" section.
+Try the deployed application on the link [here](https://ask.alphatechlogics.io). "Ask alphatechlogics" tab is free to use but make sure to add your openai key (stored locally in the browser) to explore "Ask Anything" section.
 
 ## Tech Stack
 
-Ask Alphatech Logics utilizes a modern and efficient tech stack to deliver a robust user experience. Below is an overview of the core libraries and tools used in the project:
+Ask alphatechlogics utilizes a modern and efficient tech stack to deliver a robust user experience. Below is an overview of the core libraries and tools used in the project:
 
 | Library                  | Category                | Version  | Description                                                                                |
 | ------------------------ | ----------------------- | -------- | ------------------------------------------------------------------------------------------ |
@@ -72,12 +72,12 @@ Additional dependencies include several Radix UI components, libraries for state
 
 ## Documentation
 
-### Replacing the Alphatech Logics Knowledge Base
+### Replacing the alphatechlogics Knowledge Base
 
 To customize the chatbot's responses with your own knowledge base, follow these steps to create and upload document chunks:
 
-1. **Prepare Your Documents**: We have provided a [template](https://github.com/Alphatech Logics/ask-Alphatech Logics/blob/main/public/example-docs/knowledgebase.template) and an [example document](https://github.com/Alphatech Logics/ask-Alphatech Logics/blob/main/public/example-docs/knowledgebase) to start with and give agencies an idea on how should they create their knowledgebase. Use that or create your own document and place that in PDF format in the "Documents" folder located in the same directory as the chunking script.
-2. **Run the Chunking Script**: Use our script located [here](https://github.com/Alphatech Logics/ask-Alphatech Logics/blob/main/scripts/ask_Alphatech Logics_LC_chunking.ipynb). This script is an `.ipynb` file that can be run locally using Jupyter Notebook or online via Google Colab.
+1. **Prepare Your Documents**: We have provided a [template](https://github.com/alphatechlogics/ask-alphatechlogics/blob/main/public/example-docs/knowledgebase.template) and an [example document](https://github.com/alphatechlogics/ask-alphatechlogics/blob/main/public/example-docs/knowledgebase) to start with and give agencies an idea on how should they create their knowledgebase. Use that or create your own document and place that in PDF format in the "Documents" folder located in the same directory as the chunking script.
+2. **Run the Chunking Script**: Use our script located [here](https://github.com/alphatechlogics/ask-alphatechlogics/blob/main/scripts/ask_alphatechlogics_LC_chunking.ipynb). This script is an `.ipynb` file that can be run locally using Jupyter Notebook or online via Google Colab.
 3. **Configure the Script**: In the `upload_documents_service` function, set up the following variables:
    - `api_key`: Your Pinecone API key.
    - `pinecone.Index()`: Your Pinecone index name.
@@ -87,13 +87,13 @@ To customize the chatbot's responses with your own knowledge base, follow these 
 
 ## Running the Application
 
-To run Ask Alphatech Logics locally, follow these steps:
+To run Ask alphatechlogics locally, follow these steps:
 
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/Alphatech Logics/ask-Alphatech Logics
-   cd ask-Alphatech Logics
+   git clone https://github.com/alphatechlogics/ask-alphatechlogics
+   cd ask-alphatechlogics
    ```
 
 2. **Set Up Environment Variables**: Add the following environment variables to your `.env` file:
@@ -104,8 +104,8 @@ To run Ask Alphatech Logics locally, follow these steps:
    - `OPENAI_KEY`: Your OpenAI API key.
    - `PINECONE_API_KEY`: Your Pinecone API key.
    - `PINECONE_INDEX`: Your Pinecone index name.
-   - `ALT_DOC_INDEX_ID`: The hardcoded ID for your indexed document in Pinecone.
-   - `ALT_OPENAI_API_KEY`: OpenAI key for querying the knowledge base.
+   - `ATL_DOC_INDEX_ID`: The hardcoded ID for your indexed document in Pinecone.
+   - `alphatechlogics_OPENAI_API_KEY`: OpenAI key for querying the knowledge base.
    - `NEXT_PUBLIC_CALENDLY`: Your calendly link.
 
 3. **Install Dependencies**:
@@ -121,12 +121,12 @@ To run Ask Alphatech Logics locally, follow these steps:
 
 ## Contributing
 
-We here at Alphatech Logics have setup this open-source repository so that developers interested in making AI tools like this can have a starting point. They can clone the repo and get it up and running and with only a few tweaks they can set up their own AI assistants without having to invest their time setting up everything from scratch. We welcome contributions to the Ask Alphatech Logics! Whether it's bug fixes, feature enhancements, or documentation improvements, your input is valued.
+We here at alphatechlogics have setup this open-source repository so that developers interested in making AI tools like this can have a starting point. They can clone the repo and get it up and running and with only a few tweaks they can set up their own AI assistants without having to invest their time setting up everything from scratch. We welcome contributions to the Ask alphatechlogics! Whether it's bug fixes, feature enhancements, or documentation improvements, your input is valued.
 
 ## Got an AI idea? Looking for a team? Let's have a chat!
 
-We are a team of super passionate developers, helping clients since 2021. We have worked with some amazing and brilliant customers and have built & launched various AI products for them. If you have an idea that you are planning to launch but don't have the engineering capacity, feel free to reach out to us at info@Alphatech Logics.io. We are also aiming to launch interesting products and open source projects like these for the developer community, so stay tuned.
+We are a team of super passionate developers, helping clients since 2021. We have worked with some amazing and brilliant customers and have built & launched various AI products for them. If you have an idea that you are planning to launch but don't have the engineering capacity, feel free to reach out to us at info@alphatechlogics.io. We are also aiming to launch interesting products and open source projects like these for the developer community, so stay tuned.
 
 ## Reporting Issues / Getting Help
 
-For any issues or assistance, please check the issues and discussions sections on GitHub. You can also reach out to the Alphatech Logics community or contact us directly through our website.
+For any issues or assistance, please check the issues and discussions sections on GitHub. You can also reach out to the alphatechlogics community or contact us directly through our website.

@@ -41,9 +41,9 @@ export default function RootLayout({
         style={{ overflow: 'hidden' }}
       >
         <Providers>
-          <main className='fixed m-auto grid h-[100svh] w-full bg-white md:grid-cols-[260px_1fr] lg:grid-cols-[300px_1fr]'>
-            <div className='hidden h-full bg-white md:block'>
-              <div className='h-screen px-8 text-white dark:bg-black'>
+          <main className='fixed m-auto grid h-[100svh] w-full md:grid-cols-[260px_1fr] lg:grid-cols-[300px_1fr]'>
+            <div className='hidden h-full md:block'>
+              <div className='h-screen bg-[#fff] px-8 text-white dark:bg-black'>
                 <div className='sticky flex h-24 items-center justify-center border-b border-[#ACACAC] dark:border-[#34343B]'>
                   <Image
                     src='/WHITE_ZOOM_LOGO_WITH_TAGLINE.png'
@@ -57,7 +57,9 @@ export default function RootLayout({
             </div>
             <div className='flex h-full flex-col'>
               <ChatHeader />
-              <div className='h-full dark:bg-[#363639]'>{children}</div>
+              <div className='h-full bg-[#E8E8E8] dark:bg-[#363639]'>
+                {children}
+              </div>
             </div>
           </main>
           <Toaster

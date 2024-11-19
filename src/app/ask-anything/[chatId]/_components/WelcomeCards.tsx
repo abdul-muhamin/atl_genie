@@ -36,7 +36,7 @@ export const WelcomeCards = ({ cards, hideSetupKey = false }: Props) => {
       ? '-1'
       : (pathname.split('/')[2] ?? '0')
   }, [pathname])
-  // pathname will always be "-1" or "0" or "{id}" indicating ask-ATL or ask-anything or chatId
+  // pathname will always be "-1" or "0" or "{id}" indicating ask-alphatechlogics or ask-anything or chatId
   const { openAIKey } = useSnapshot()
   const [key, setKey] = useState<string>('')
   const router = useRouter()
@@ -61,7 +61,7 @@ export const WelcomeCards = ({ cards, hideSetupKey = false }: Props) => {
         })
         if (chatId) router.push(`/ask-anything/${chatId}`)
       } else {
-        // for ask-ATL i.e. chatId = -1
+        // for ask-alphatechlogics i.e. chatId = -1
         set('stateMetadata', {
           chatId,
           message,

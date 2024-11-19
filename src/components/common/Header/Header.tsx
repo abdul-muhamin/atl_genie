@@ -38,8 +38,8 @@ export const Header = () => {
       <div className='flex justify-between'>
         <Link href={'/'} className='max-h-[40px]'>
           <Image
-            src={'/PURPLE_A.png'}
-            alt='alphatechlogics'
+            src={`/PURPLE_A.png`}
+            alt='alphatehclogics'
             height={100}
             width={100}
             className='h-[40px] cursor-pointer'
@@ -135,7 +135,7 @@ export const ConfigDialogue = () => {
               name='openaiKey'
               onChange={handleChange}
               value={formValues.openaiKey}
-              className='rounded-full border-blue-500 focus:border-blue-500 focus:ring-blue-500'
+              className='rounded-full'
             />
           </div>
         </div>
@@ -163,11 +163,7 @@ export const ConfigDialogue = () => {
                 Close
               </Button>
             </DialogClose>
-            <Button
-              type='button'
-              onClick={saveConfig}
-              className='bg- crayolay rounded-full'
-            >
+            <Button type='button' onClick={saveConfig} className='rounded-full'>
               Save
             </Button>
           </div>

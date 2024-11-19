@@ -15,7 +15,7 @@ export const ExternalLink = ({
 }) => {
   const triggerGAEvent = () => {
     gtag('event', 'external_click', {
-      event_label: `${text}: Redirect to Alphatech Logics`,
+      event_label: `${text}: Redirect to AlphaTechLogics`,
       value: JSON.stringify({ uId: localStorage.getItem('uId') ?? '', href }),
     })
   }

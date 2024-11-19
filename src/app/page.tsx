@@ -63,10 +63,10 @@ export default function Page() {
           >
             <div>
               <div className='group cursor-pointer rounded-lg bg-[#DBDBDB] p-[16px] pl-[24px] transition duration-300 hover:bg-crayola dark:bg-[#34343C] dark:hover:bg-crayola'>
-                <div className='items-left flex w-full gap-1'>
+                <div className='flex w-full items-center gap-2'>
                   <MessageSquare className='h-4 w-4 text-crayola group-hover:text-white' />
-                  <span className='text-left font-medium text-black group-hover:text-white dark:text-white'>
-                    Ask AlphaTech Logics
+                  <span className='text-center font-medium text-black group-hover:text-white dark:text-white'>
+                    Ask Alphatech Logics
                   </span>
                 </div>
               </div>
@@ -82,12 +82,12 @@ export default function Page() {
                     className='group flex list-none items-center justify-between transition duration-300'
                   >
                     <div className='flex items-center gap-2'>
-                      <Icon className='h-4 w-4 text-crayola opacity-50 transition duration-300 group-hover:opacity-100' />
-                      <span className='text-lg font-medium text-black opacity-50 transition duration-300 group-hover:opacity-100 dark:text-[#D1D1D1]'>
+                      <Icon className='h-4 w-4 text-crayola opacity-100 transition duration-300 group-hover:opacity-50' />
+                      <span className='text-lg font-medium text-black opacity-100 transition duration-300 group-hover:opacity-50 dark:text-[#D1D1D1]'>
                         {label}
                       </span>
                     </div>
-                    <SquareArrowOutUpRight className='h-3 w-3 text-black opacity-50 transition duration-300 group-hover:opacity-100 dark:text-[#D1D1D1]' />
+                    <SquareArrowOutUpRight className='h-3 w-3 text-black opacity-100 transition duration-300 group-hover:opacity-50 dark:text-[#D1D1D1]' />
                   </Link>
                 ))}
               </div>

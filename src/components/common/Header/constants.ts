@@ -5,7 +5,7 @@ export const menuItems = [
     pathMatch: ['/ask-anything', '/ask-anything/*'],
   },
   {
-    title: 'Ask AlphaTech Logics',
+    title: 'Ask Alphatech Logics',
     href: '/',
     pathMatch: ['/'],
   },

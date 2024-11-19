@@ -5,7 +5,7 @@ import { ChatHeader } from './[chatId]/_components/ChatHeader'
 export const metadata: Metadata = {
   title: 'ATL Genie| Alphatech Logics',
   description:
-    'Ask Alphatech Logics - A product of AlphatechLogics - Transforming ideas into innovative software solutions',
+    'Ask Alphatech Logics - A product of alphatechlogics - Transforming ideas into innovative software solutions',
   keywords: [
     'ChatGPT',
     'Artificial Intelignece',
@@ -14,14 +14,13 @@ export const metadata: Metadata = {
     'JavaScript',
     'Web Development',
     'App Development',
-    'Alpatech Logics',
   ],
 
   openGraph: {
     title: 'ATL Genie| Alphatech Logics',
     description: 'Transforming ideas into innovative software solutions',
     url: 'https://alphatechlogics.com/',
-    siteName: 'Alphatech Logics',
+    siteName: 'AlphatechLogics',
     locale: 'en_US',
     type: 'website',
   },

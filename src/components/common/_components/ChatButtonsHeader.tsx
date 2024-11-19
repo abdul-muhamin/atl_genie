@@ -29,13 +29,13 @@ export default function ChatHeader() {
   const askRSPaths = ['/']
 
   return (
-    <div className='top-0 flex items-center justify-center border-b border-[#ACACAC] bg-[#E8E8E8] py-3 dark:border-[#1B1B21] dark:bg-[#363639] md:py-6'>
-      <div className='flex gap-1 rounded-full bg-[#E0E0E0] text-[#575757] dark:bg-[#5E5E61] dark:text-white'>
+    <div className='top-0 flex items-center justify-center border-b border-[#ACACAC] bg-[#fff] py-3 dark:border-[#1B1B21] dark:bg-[#363639] md:py-6'>
+      <div className='flex gap-1 rounded-full bg-[#fff] text-[#575757] dark:bg-[#5E5E61] dark:text-white'>
         <li
           onClick={() => router.push('/')}
           className={`cursor-pointer select-none list-none px-2 py-1 font-medium transition-all duration-300 ease-linear xs:px-6 md:py-2 md:text-lg ${isPath(askRSPaths, pathname) ? 'rounded-full bg-crayola text-white drop-shadow-lg' : 'rounded-full hover:bg-accent'} `}
         >
-          Ask AlphaTech Logics
+          Ask Alphatech Logics
         </li>
         <li
           onClick={() => router.push('/ask-anything')}
@@ -82,9 +82,7 @@ const DeleteConfirmationDialog = () => {
     <Dialog>
       <DialogTrigger asChild className='flex items-center justify-center'>
         <Button
-          className={
-            'border-none bg-transparent shadow-none hover:shadow-sm focus:border-blue-500 focus:ring-blue-500'
-          }
+          className={'border-none bg-transparent shadow-none hover:shadow-sm'}
           ref={openRef}
           variant='outline'
           size='icon'
@@ -203,7 +201,7 @@ const ConfigDialogue = () => {
               name='openaiKey'
               onChange={handleChange}
               value={formValues.openaiKey}
-              className='rounded-full border-[#460073]'
+              className='rounded-full border-crayola'
               type='password'
             />
           </div>

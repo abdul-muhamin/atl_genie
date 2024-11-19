@@ -89,7 +89,7 @@ export function ChatHeader() {
           onClick={handleEditClick}
         >
           {!isEditing && selectedChat?.name && (
-            <PencilLine className='mr-2 h-4 w-4 fill-[#B6B4B5] stroke-[#C8C8C8] hover:fill-[#1B9E84] hover:stroke-[#9fdecf]' />
+            <PencilLine className='mr-2 h-4 w-4 fill-[#B6B4B5] stroke-[#C8C8C8] hover:fill-[#a100ff] hover:stroke-[#a100ff]' />
           )}
         </div>
         {isEditing ? (
@@ -115,7 +115,7 @@ export function ChatHeader() {
           </>
         )}
       </div>
-      <div className='col-start-3 col-end-4 row-start-1 row-end-2 flex items-center justify-end bg-[#E8E8E8] px-3 md:px-10'>
+      <div className='col-start-3 col-end-4 row-start-1 row-end-2 flex items-center justify-end px-3 md:px-10'>
         {(!isSmScreen || !isEditing) && (
           <UploadDocumentWrapper selectedChat={selectedChat} />
         )}

@@ -40,14 +40,14 @@ export default function Sidebar() {
 
   return (
     <div className='h-[calc(100svh-96px)]'>
-      {/* Ask ATL Button */}
+      {/* Ask Alphatech logics Button */}
       <div className='pb-8 pt-7'>
         <Link href='/ask-anything'>
           <div className='group cursor-pointer rounded-lg bg-[#DBDBDB] p-[16px] pl-[24px] transition duration-300 hover:bg-crayola dark:bg-[#34343C] dark:hover:bg-crayola'>
-            <div className='flex w-full items-center gap-1'>
+            <div className='flex w-full items-center gap-2'>
               <MessageSquare className='h-4 w-4 text-crayola group-hover:text-white' />
-              <span className='text-left font-medium text-black group-hover:text-white dark:text-white'>
-                Ask AlphaTech Logics
+              <span className='text-center font-medium text-black group-hover:text-white dark:text-white'>
+                Ask Alphatech Logics
               </span>
             </div>
           </div>

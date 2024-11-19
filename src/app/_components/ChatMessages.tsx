@@ -25,7 +25,7 @@ import { askRS_sendMessage as apiSendMessage } from '@/dal/message'
 
 const cards: Cardset = {
   top: 'Can you tell me about some of your projects?',
-  bottomLeft: 'What is AlphaTech Logics known for?',
+  bottomLeft: 'What is Alphatech Logics known for?',
   bottomRight: 'Do you guys work on AI?',
 }
 
